@@ -34,5 +34,6 @@ In order to download code files and metadata associated with a Notebook, one can
 
 `kaggle kernels pull [KERNEL] -p /path/to/download -m`
 
-from code_block_processing import process_kernel
+`from codeblock_processing import process_kernel`
+`process_kernel(kernel)`
 
