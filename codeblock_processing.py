@@ -71,10 +71,17 @@ def code_blocks_from_json(kernel_source):
 
 
 
-def process_kernel(kernel_raw):
+def process_kernel(response):
     """
     Parses notebook codeblocks and metadata
+    Input:  loaded kernel
+    Output: code blocks
     """
+    soup = BeautifulSoup(response.text, "html.parser")
+    potential_notebook_views = soup.find_all(is_kernel_view)
+
+    kernel_view = potential_notebook_views[1]
+    kernel_raw = kernel_view.string
 
     data_begin_marker = "Kaggle.State.push("
     data_end_marker = ");performance"
