@@ -30,3 +30,5 @@ Output: .csv table with link to the kernel and submission year
 
 
 ### Kaggle kernels parsing
+In order to download code files and metadata associated with a Notebook, one can use the following command:
+`kaggle kernels pull [KERNEL] -p /path/to/download -m`
