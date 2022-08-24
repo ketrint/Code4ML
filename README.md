@@ -23,15 +23,18 @@ You can find the instructions above.
 `python collect_kernels_from_competitions.py`
 
 The script does the following:
-- Collects the links to the Kaggle competitions to ‘competitions_ref.csv’
+- Collects the links to the Kaggle competitions to .csv table
 - Runs competition_kernels.sh, which collect kernels information of every competition
 - Collects .csv files with the Kaggle kernels links to `kernel_lists` directory 
+
+Output: 'kernel_lists' directory with the Kaggle kernels links files
 
 2. Combining  kernels links tables into one .csv table
 
 `python unite_kernel_lists.py`  
 
-Input: 'kernel_lists' directory
+Input: 'kernel_lists' directory with the Kaggle kernels links files
+
 Output: .csv table with the links to the Kaggle kernels
 
 ## Kaggle kernels parsing
@@ -39,5 +42,6 @@ Output: .csv table with the links to the Kaggle kernels
 `python code_blocks_extraction.py`
 
 Input: .csv table with the links to the Kaggle kernels
+
 Output: .csv table with the following columns: "kernel_id", "code_block", "code_block_id".
 
