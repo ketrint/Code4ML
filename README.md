@@ -17,7 +17,7 @@ The script does the following:
 
 2. Combining table data into one .csv table
 
-`python unite_kernel_lists_w_year.py`  
+`python unite_kernel_lists.py`  
 
 
 3. Combining table data into one .csv table
