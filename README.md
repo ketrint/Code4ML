@@ -33,7 +33,7 @@ Output: 'kernel_lists' directory with the Kaggle kernels links files
 
 `python unite_kernel_lists.py`  
 
-Input: 'kernel_lists' directory with the Kaggle kernels links files
+Input: Kaggle kernels links .csv files
 
 Output: .csv table with the links to the Kaggle kernels
 
