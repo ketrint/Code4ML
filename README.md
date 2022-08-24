@@ -27,13 +27,13 @@ The script does the following:
 - Runs competition_kernels.sh, which collect kernels information of every competition
 - Collects .csv files with the Kaggle kernels links to `kernel_lists` directory 
 
-Output: 'kernel_lists' directory with the Kaggle kernels links files
+Output: Kaggle kernels links .csv files
 
 2. Combining  kernels links tables into one .csv table
 
 `python unite_kernel_lists.py`  
 
-Input: Kaggle kernels links .csv files
+Input: 
 
 Output: .csv table with the links to the Kaggle kernels
 
