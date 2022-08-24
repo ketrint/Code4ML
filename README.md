@@ -2,13 +2,13 @@
 
 # Code4ML code blocks extractions
 
-##Prerequisites
+## Prerequisites
 
 In order to load data form Kaggle one should have a kaggle.json file with the username and key specified.
 
 An example of collecting code snippets from Kaggle can be found [[here](https://github.com/ketrint/Code4ML/blob/main/code_blocks_collection_example.ipynb)].
 
-##Overview
+## Overview
 
 This is an official repository for code snippets from Kaggle kernels collecting. 
 
