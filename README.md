@@ -19,11 +19,6 @@ The script does the following:
 
 `python unite_kernel_lists.py`  
 
-
-3. Combining table data into one .csv table
-
-`python unite_kernel_lists.py`
-
 Input: kernel_lists directory
 Output: .csv table with link to the kernel and submission year
 
