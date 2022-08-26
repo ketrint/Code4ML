@@ -41,8 +41,10 @@ for kernel_link in kernels.ref:
     blocks = []
     blocks_id = []
     for i in range(len(kernel['cells'])-1):
-      blocks_id.append(i)
-      blocks.append(kernel['cells'][i]['source'])
+      cell = kernel['cells'][i]
+      if cell["cell_type"] == "code" and cell['source'] is not None:
+        blocks_id.append(i)
+        blocks.append(cell['source'])
     kernel_id = [metadata['id_no']]*len(blocks)
     kernel_code_blocks = pd.DataFrame({"kernel_id": kernel_id, 
                                       "code_block": blocks, "code_block_id": blocks_id})
