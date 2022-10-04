@@ -1,6 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6607065.svg)](https://doi.org/10.5281/zenodo.6607065)
+[![DOI](https://zenodo.org/badge/526379777.svg)](https://zenodo.org/badge/latestdoi/526379777)
 
 # Code4ML code blocks extractions
+
+This is a source code for CODE4ML[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6607065.svg)](https://doi.org/10.5281/zenodo.6607065) dataset construction. 
+
 
 ## Prerequisites
 
